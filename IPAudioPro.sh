@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 # Show title
 echo -e "${CYAN}"
 echo "##################################################"
-echo "#    PanelAIO Installation Script    #"
+echo "#    IPAudioPro Installation Script    #"
 echo "#                   Version 00                  #"
 echo "##################################################"
 echo -e "${NC}"
@@ -45,7 +45,7 @@ echo -e "${GREEN}✓ Temporary files cleaned${NC}"
 # Settings
 plugin=PanelAIO
 version=00
-url=https://raw.githubusercontent.com/tarek1902/PanelAIO/refs/heads/main/PanelAIO.tar.gz
+url=https://raw.githubusercontent.com/tarek1902/IPAudioPro/refs/heads/main/IPAudioPro.tar.gz
 package=/var/volatile/tmp/$plugin-$version.tar.gz
 
 # Download and install
