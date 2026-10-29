@@ -43,7 +43,7 @@ rm -rf /tmp/*.tar.gz >/dev/null 2>&1
 echo -e "${GREEN}✓ Temporary files cleaned${NC}"
 
 # Settings
-plugin=PanelAIO
+plugin=IPAudioPro
 version=00
 url=https://raw.githubusercontent.com/tarek1902/IPAudioPro/refs/heads/main/IPAudioPro.tar.gz
 package=/var/volatile/tmp/$plugin-$version.tar.gz
@@ -84,7 +84,6 @@ if [ $extract -eq 0 ]; then
     echo "######################################################"
     echo -e "${YELLOW}"
     echo "########################################"
-    echo "#   your Device will RESTART Now       #"
     echo "########################################"
     echo -e "${NC}"
     sleep 3s
